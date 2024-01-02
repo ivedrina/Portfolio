@@ -1,0 +1,24 @@
+
+
+
+<head>
+  
+  <h1>Welcome to Homework TimeCode_8523</h1>
+  </head>
+  <body>
+    {% if Field3 %}
+    <p>Your result is {{ Field3 }}</p>
+    {% endif %}
+
+  <form action="" method="POST">
+  {% csrf_token %}
+  Field1:
+  <input type="text" name="Field1" id="Field1"/></p>
+  Field2:
+  <input type="text" name="Field2" id="Field2"/></p>
+  <input type="Submit" name="submit" value="Submit"/>
+  </form>
+  
+  
+  
+  </body>
